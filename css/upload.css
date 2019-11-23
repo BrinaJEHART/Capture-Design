@@ -44,7 +44,7 @@ input{
   padding: 10px;
   font-size: 1.1em;
   font-family: 'Tahoma';
-  background-color:#282828 !important;
+  background-color:#585858 !important;
   color: white !important;
   border: none;
   border-radius: 5px;
@@ -54,7 +54,7 @@ input{
 }
 
 .txtarea{
-  background-color:#282828 !important;
+  background-color:#585858 !important;
   color: white !important;
   box-sizing: border-box;
   width: 100%;
@@ -63,7 +63,6 @@ input{
   font-family: 'Tahoma';
   border: none;
   border-radius: 5px;
-  border-color: rgb(255, 94, 0) !important;;
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -83,6 +82,13 @@ textarea::placeholder{
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  display: table;
+  font-weight: 500 !important;
+  transition: all 0.4 ease-in-out;
+  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .upload-label:hover{
@@ -103,15 +109,22 @@ textarea::placeholder{
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  display: table;
+  font-weight: 500 !important;
+  transition: all 0.4 ease-in-out;
+  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.button:hover{
+/* .button:hover{
     font-weight: 500 !important;
     transition: all 0.4 ease-in-out;
     background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 .stranpejt{
     width: 0.1px;
@@ -163,13 +176,16 @@ h1 {
   line-height: 200px;
 }
 
-p{
+h3{
+    display: table;
+    font-weight: 400 !important;
+    font-size: 2em !important;
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-  padding: 0%;
-  font-weight: 500 !important;
-  font-size: 1.5em !important;
-  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.settingsp{
+  color: rgb(177, 177, 177);
 }
