@@ -1,5 +1,10 @@
 .body{
-  background-color: #1D1F20 !important;
+  margin: 0%;
+  padding: 0%;
+}
+
+.bg-light{
+  background-color: #181818 !important;
 }
 
 .space{
