@@ -1,78 +1,14 @@
-body img{
-    height: 100vh !important;
+.body{
+  background-color: rgb(187, 187, 187) !important;
 }
 
-/* Button */
-
-button,
-button::after {
-  -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-	transition: all 0.3s;
+.space{
+  margin-top: 15px;
 }
 
-button {
-  background: none;
-  border: 3px solid #ffffff !important;
-  border-radius: 5px;
-  color: rgb(255, 255, 255) !important;
-  display: block;
-  font-size: 2.2em !important;
-  font-weight: bold !important;
-  margin: 1em auto;
-  padding: 2em 6em;
-  position: relative;
-  text-transform: uppercase;
-}
-
-button::before,
-button::after {
-  background: rgba(255, 255, 255, 0.596);
-  content: '';
-  position: absolute;
-  z-index: -1;
-}
-
-button:hover {
-  color: #000000 !important;
-}
-
-
-.btn {
-    overflow: hidden;
-  }
-  
-  .btn::after {
-    height: 100%;
-    left: -35%;
-    top: 0;
-    transform: skew(50deg);
-    transition-duration: 0.6s;
-    transform-origin: top left;
-    width: 0;
-  }
-  
-  .btn:hover:after {
-    height: 100%;
-    width: 135%;
-  }
-
-  a.animated-button.sandy-one {
-	border: 2px solid #AEA8D3;
-	color: #FFF;
-}
-a.animated-button.sandy-one:after {
-	border: 3px solid #AEA8D3;
-	opacity: 0;
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-	
-}
-a.animated-button.sandy-one:hover:after {
-	height: 120% !important;
-	opacity: 1;
-	color: #FFF;
+.card{
+  width: 65% !important;
+  margin: auto;
+  color: white !important;
+  background-color: #303030 !important;
 }
