@@ -3,6 +3,11 @@
   padding: 0%;
 }
 
+.background img {
+  height: 100vh !important;
+}
+
+
 .bg-light{
   background-color: #181818 !important;
 }
