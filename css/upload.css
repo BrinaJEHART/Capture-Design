@@ -184,7 +184,7 @@ h3{
     -webkit-text-fill-color: transparent;
 }
 
-p{
+.contentp{
     font-weight: 400 !important;
     font-size: 2em !important;
     background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
