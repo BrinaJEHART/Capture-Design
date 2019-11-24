@@ -21,6 +21,12 @@
     crossorigin="anonymous"></script>
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
   <title>Capture</title>
 </head>
 
@@ -74,17 +80,27 @@
   </div>
 
   <div class="card mb-3">
-    <img src="images/bench.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lorem Ipsum</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Cursus mattis molestie a iaculis at erat.</p>
-      <p class="card-text"><small class="text-muted">Last updated
-          <script>document.write(moment(new Date()).fromNow())</script></small></p>
+      <div id="ex1" style="max-width: 100%; width: 80vw !important" class="modal">
+        <img style="max-width: 100%; width: 80vw !important"
+          src="images/bench.jpg" />
+      </div>
+  
+      <a href="#ex1" rel="modal:open"><img class="card-img-top" src="images/bench.jpg" /></a>
+      <div class="card-body">
+        <h5 class="card-title">Lorem Ipsum</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Cursus mattis molestie a iaculis at erat.</p>
+          <p class="card-text"><small class="text-muted">Last updated
+              <script>document.write(moment(new Date()).fromNow())</script></small></p>
+      </div>
     </div>
-  </div>
   <div class="card mb-3">
-    <img src="images/lake2.jpg" class="card-img-top" alt="...">
+    <div id="ex2" style="max-width: 100%; width: 80vw !important" class="modal">
+      <img style="max-width: 100%; width: 80vw !important"
+        src="images/lake2.jpg" />
+    </div>
+
+    <a href="#ex2" rel="modal:open"><img class="card-img-top" src="images/lake2.jpg" /></a>
     <div class="card-body">
       <h5 class="card-title">Lorem Ipsum</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -94,23 +110,33 @@
     </div>
   </div>
   <div class="card mb-3">
-    <img src="images/bench.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Lorem Ipsum</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Cursus mattis molestie a iaculis at erat.</p>
-      <p class="card-text"><small class="text-muted">Last updated
-          <script>document.write(moment('Thu Oct 25 2019 17:30:03 GMT+0300').fromNow());</script></small></p>
+      <div id="ex3" style="max-width: 100%; width: 80vw !important" class="modal">
+        <img style="max-width: 100%; width: 80vw !important"
+          src="images/forest.jpg" />
+      </div>
+  
+      <a href="#ex3" rel="modal:open"><img class="card-img-top" src="images/forest.jpg" /></a>
+      <div class="card-body">
+        <h5 class="card-title">Lorem Ipsum</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Cursus mattis molestie a iaculis at erat.</p>
+          <p class="card-text"><small class="text-muted">Last updated
+              <script>document.write(moment('Thu Oct 25 2019 17:30:03 GMT+0300').fromNow());</script></small></p>
+      </div>
     </div>
-  </div>
   <div class="card mb-3">
-    <img src="images/lake2.jpg" class="card-img-top" alt="...">
+    <div id="ex4" style="max-width: 100%; width: 80vw !important" class="modal">
+      <img style="max-width: 100%; width: 80vw !important"
+        src="images/forest2.jpg" />
+    </div>
+
+    <a href="#ex4" rel="modal:open"><img class="card-img-top" src="images/forest2.jpg" /></a>
     <div class="card-body">
       <h5 class="card-title">Lorem Ipsum</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Cursus mattis molestie a iaculis at erat.</p>
-      <p class="card-text"><small class="text-muted">Last updated
-          <script>document.write(moment('Thu Oct 25 2017 17:30:03 GMT+0300').fromNow());</script></small></p>
+        <p class="card-text"><small class="text-muted">Last updated
+            <script>document.write(moment('Thu Oct 25 2017 17:30:03 GMT+0300').fromNow());</script></small></p>
     </div>
   </div>
 </body>
